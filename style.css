@@ -1,3 +1,23 @@
+/* Estilos para o cabeçalho */
+header {
+    background-color: #ff6600; /* Laranja */
+    color: #fff;
+    text-align: center;
+    position: relative; /* Para posicionar a imagem */
+}
+
+header img {
+    width: 100%; /* Para que a imagem ocupe toda a largura do cabeçalho */
+    height: auto; /* Para manter a proporção da imagem */
+}
+
+header h1 {
+    position: absolute; /* Posiciona o texto sobre a imagem */
+    top: 50%; /* Alinha o texto verticalmente no meio */
+    left: 50%; /* Alinha o texto horizontalmente no meio */
+    transform: translate(-50%, -50%); /* Centraliza o texto */
+    margin: 0;
+}
 /* Estilos para a página */
 body {
     font-family: Arial, sans-serif;
@@ -52,3 +72,4 @@ footer {
     background-color: #ff6600; /* Laranja */
     color: #fff;
 }
+
