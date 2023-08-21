@@ -3,12 +3,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f5f5f5; /* Cor de fundo mais clara */
 }
 
 /* Estilos para o cabeçalho */
 header {
-    background-color: #333;
+    background-color: #ff6600; /* Laranja */
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -22,12 +22,12 @@ header h1 {
 /* Estilos para o menu de navegação */
 nav {
     text-align: center;
-    background-color: #444;
+    background-color: #ff9900; /* Laranja claro */
     padding: 10px;
 }
 
 nav a {
-    color: #fff;
+    color: #333; /* Cor de texto mais escura */
     text-decoration: none;
     margin: 0 15px;
 }
@@ -45,6 +45,6 @@ nav a {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #333;
+    background-color: #ff6600; /* Laranja */
     color: #fff;
 }
