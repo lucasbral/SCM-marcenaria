@@ -13,7 +13,7 @@
                 left: 0;
                 width: 100%;
                 height: 100%;
-                background-color: #fff;
+                background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente para tornar o conteúdo da página um pouco visível */
                 display: flex;
                 justify-content: center;
                 align-items: center;
@@ -58,10 +58,15 @@
         &copy; 2023 Marcenaria XYZ
     </footer>
     <script>
-        // Esconde o loader após o carregamento da página
+        // Mostra o loader
+        const loader = document.getElementById('loader');
+        loader.style.display = 'block';
+
+        // Esconde o loader após 2 segundos ou quando a página for carregada
         window.addEventListener('load', function () {
-            const loader = document.getElementById('loader');
-            loader.style.display = 'none';
+            setTimeout(function () {
+                loader.style.display = 'none';
+            }, 2000); // 2 segundos
         });
     </script>
 </body>
