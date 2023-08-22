@@ -1,4 +1,5 @@
 /* Estilos para o cabeçalho */
+/* Estilos para o cabeçalho */
 header {
     background-color: #ff6600; /* Laranja */
     color: #fff;
@@ -11,7 +12,10 @@ header img {
     height: auto; /* Para manter a proporção da imagem */
 }
 
-header h1 {
+.banner-text {
+    font-size: 36px; /* Tamanho da fonte aumentado */
+    font-weight: bold; /* Texto em negrito */
+    text-transform: uppercase; /* Texto em maiúsculas */
     position: absolute; /* Posiciona o texto sobre a imagem */
     top: 50%; /* Alinha o texto verticalmente no meio */
     left: 50%; /* Alinha o texto horizontalmente no meio */
@@ -29,18 +33,6 @@ body {
     min-height: 100vh;
 }
 
-/* Estilos para o cabeçalho */
-header {
-    background-color: #ff6600; /* Laranja */
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-/* Estilos para o logo */
-header h1 {
-    margin: 0;
-}
 
 /* Estilos para o menu de navegação */
 nav {
@@ -72,4 +64,3 @@ footer {
     background-color: #ff6600; /* Laranja */
     color: #fff;
 }
-
