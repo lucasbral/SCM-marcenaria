@@ -35,6 +35,7 @@ body {
 
 
 /* Estilos para o menu de navegação */
+
 nav {
     text-align: center;
     background-color: #ff9900; /* Laranja claro */
@@ -45,7 +46,13 @@ nav a {
     color: #333; /* Cor de texto mais escura */
     text-decoration: none;
     margin: 0 15px;
+    transition: color 0.3s; /* Adiciona uma transição suave para a cor do texto */
 }
+
+nav a:hover {
+    color: #000; /* Altera a cor do texto para preto quando o mouse está sobre o link */
+}
+
 
 /* Estilos para o conteúdo principal */
 .container {
