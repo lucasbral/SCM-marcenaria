@@ -71,3 +71,38 @@ footer {
     background-color: #ff6600; /* Laranja */
     color: #fff;
 }
+
+/* Estilos para a seção de Portfólio */
+#portfolio {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+}
+
+#portfolio h2 {
+    font-size: 24px;
+}
+
+.portfolio-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas igualmente espaçadas */
+    gap: 20px; /* Espaçamento entre as imagens */
+    margin-top: 20px;
+}
+
+.portfolio-item {
+    width: 300px; /* Largura fixa para as imagens */
+    height: 200px; /* Altura fixa para as imagens */
+    overflow: hidden; /* Evita que imagens maiores estourem o tamanho fixo */
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s; /* Efeito de hover */
+}
+
+.portfolio-item img:hover {
+    transform: scale(1.05); /* Aumenta a imagem em 5% quando o mouse está sobre ela */
+}
+
